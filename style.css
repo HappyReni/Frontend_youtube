@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+html,body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 252, 244);
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgb(37, 37, 37);
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:15px 10px;
+}
+.logo{
+    font-weight: bold;
+}
+.logo>i{
+    color: red;
+    padding: 0px 12px;
+}
+.search>i{
+    padding:0px 12px;
+}
+
+.player iframe{
+    height:540px;
+    width:100%;
+}
+
+.info{
+    padding: 8px 20px;
+}
+
+.hashtag{
+    font-size:0.5em;
+    color:rgb(14, 93, 212)
+}
+.title{
+    font-style:none;
+    font-size: 0.9em;
+}
+.bar_information{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    color:rgb(78, 77, 77);
+    margin-top:8px;
+    border-bottom:solid 1px rgba(78, 77, 77, 0.219);   
+
+}
+.date{
+    font-size:0.5em;
+   
+}
+
+.buttons{
+    padding:0px 20px;
+    margin-bottom: 15px;
+}
+
+.buttons>i{
+    font-size: 0.8em;
+    padding:0px 10px;
+}
+
+.uploader{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding:15px 0px;
+    border-bottom:solid 1px rgba(78, 77, 77, 0.219);   
+}
+
+.profile_img{
+    overflow:hidden;
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+}
+
+.profile_img>img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.profile_info{
+    padding:0px 12px;
+}
+.name{
+    font-size:0.8em;
+    font-weight: bold;
+}
+.subscriber{
+    font-size:0.7em;
+}
+
+.button_subs{
+    position: absolute;
+    right:32px;
+    border:red solid 1px;
+    background: #d72d5c;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.upnext{
+    color:rgb(78, 77, 77);
+    font-size:0.7em;
+    padding:0px 0px;
+}
+.next>ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.next_videos{
+    display: flex;
+    flex-direction: column;
+    padding:0px 12px;
+}
+.next_videos >.title_next{
+    font-size:0.8em;
+}
+.next_videos >.uploader_next,.subs{
+    font-size:0.7em;
+    color:rgb(78, 77, 77);
+}
+.next > ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
